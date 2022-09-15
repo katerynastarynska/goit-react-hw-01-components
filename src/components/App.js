@@ -20,7 +20,7 @@ export default function App() {
         stats={user.stats} />
               
       </div>
-      {/* React homework template */}
+      React homework template
     </div>
 
   );
