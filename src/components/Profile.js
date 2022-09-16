@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'; 
 import css from '../index.css';
-console.log(css)
+console.log(css);
 
 export default function Profile({ username, tag, location, avatar, stats }) {
   return (
