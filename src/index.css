@@ -1,24 +1,27 @@
-/* * @import-normalize; bring in normalize.css styles */
+/* * npm install --save normalize.css bring in normalize.css styles */
 
 body {
-  margin: 0;
+  margin: auto;
+  color: rgb(96, 96, 96);
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.profile {
-  background-color: rgb(144, 118, 118);
-  text-align: center;
+ul {
+  margin: 0;
+  padding: 0;
 }
-
-.name {
-  font-size: 100px;
-} 
+p {
+  margin: 0 auto;
+}
+li {
+  margin: 0;
+  padding: 0;
+}
