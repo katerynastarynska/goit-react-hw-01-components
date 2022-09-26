@@ -1,8 +1,9 @@
 import Profile from "./Profile";
 import Statistics from "./Statistics";
+import FriendList from "./FriendList";
 import user from "../user.json";
 import data from "../data.json";
-// import 'normalize.css';
+import friends from "../friends.json";
 import css from "./App.module.css";
 
 export default function App() {
@@ -14,7 +15,8 @@ export default function App() {
         avatar={user.avatar}
         stats={user.stats} />
 
-<Statistics title="Upload stats" stats={data} />
+      <Statistics title="Upload stats" stats={data} />
+      <FriendList friends={friends} />;
 
     </div>
   );
