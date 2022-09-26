@@ -12,14 +12,14 @@
   margin-bottom: 30px;
 }
 .description {
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 40px;
   padding: 30px;
   background-color: rgb(199, 199, 199);
   border-radius: 15px;
   height: 70%;
   width: 70%;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 40px;
   box-shadow: 4px 4px 4px rgba(30, 30, 30, 0.25);
 }
 .name {
